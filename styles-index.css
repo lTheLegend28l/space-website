@@ -16,7 +16,7 @@
   position: absolute;
   right: 0;
   top: 5vh;
-  width: 110vh;
+  width: 50vw;
   height: 10vh;
   backdrop-filter: blur(30px);
 }
@@ -74,7 +74,7 @@ p {
 
 .navbar-text {
   margin: 30px;
-  margin-left: 80px;
+  margin-left: 5%;
   padding-bottom: 3.3vh;
   display: inline-block;
   font-family: "Barlow Condensed", sans-serif;
@@ -108,7 +108,7 @@ p {
 .bar {
   position: absolute;
   z-index: 1;
-  width: 60vh;
+  width: 32vw;
   top: 8vh;
   left: 25vh;
   border-style: solid;
