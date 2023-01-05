@@ -17,7 +17,7 @@
   right: 0;
   top: 5vh;
   width: 50vw;
-  height: 10vh;
+  height: 100px;
   backdrop-filter: blur(30px);
 }
 
@@ -75,7 +75,7 @@ p {
 .navbar-text {
   margin: 30px;
   margin-left: 5%;
-  padding-bottom: 3.3vh;
+  padding-bottom: 38px;
   display: inline-block;
   font-family: "Barlow Condensed", sans-serif;
   font-size: 16px;
@@ -89,18 +89,18 @@ p {
   border-bottom: solid;
   border-color: white;
   border-bottom-width: 5px;
-  padding-bottom: 3.3vh;
+  padding-bottom: 33px;
 }
 
 .current-page:hover {
   border-bottom-width: 10px;
-  padding-bottom: 2.6vh;
+  padding-bottom: 28px;
 }
 
 .non-current:hover {
   border-bottom: solid;
   border-bottom-width: 5px;
-  padding-bottom: 3vh;
+  padding-bottom: 33px;
 }
 /* Navbar */
 
