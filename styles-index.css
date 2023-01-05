@@ -118,11 +118,19 @@ p {
 
 .star-img {
   position: absolute;
+  z-index: 1;
   top: 5vh;
   left: 9.5vh;
   width: 10vh;
   background-color: white;
   border-radius: 100%;
+  outline: solid 0px rgba(255, 255, 255, 0.5);
+  transition: transform 0.5s ease-in-out, outline-width 0.5s ease-in-out;
+}
+
+.star-img:hover {
+  transform: rotate(359deg);
+  outline-width: 20px;
 }
 
 .main-bg-img {
@@ -168,20 +176,6 @@ p {
 .navbar-container {
   animation: transitionInRight 0.75s;
 }
-
-/* @keyframes expand {
-  from {
-    border-width: 0;
-    opacity: 0;
-    width: 0%;
-  }
-
-  to {
-    border-width: 5px;
-    opacity: 1;
-    width: 100%;
-  }
-} */
 
 @keyframes transitionInLeft {
   from {
