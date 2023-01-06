@@ -27,37 +27,66 @@
   <body>
     <!-- ABSOLUTE POSITIONING -->
     <hr class="bar" />
-    <a href="">
-      <img class="btn-explore" src="assets/home/explore.png" alt="" />
-    </a>
     <img class="star-img" src="assets/home/sparkle.png" alt="" />
     <img
       class="main-bg-img"
       src="assets\home\background-home-desktop.jpg"
       alt="" />
+    <img
+      class="mobile-bg-img"
+      src="assets\home\background-home-mobile.jpg"
+      alt="" />
+    <img
+      class="tablet-bg-img"
+      src="assets/home/background-home-mobile.jpg"
+      alt="" />
+    <img class="btn-explore" src="assets/home/explore.png" alt="" />
+    <img
+      class="menu-button"
+      src="assets/home/burger-bar.png"
+      onclick="openNav()"
+      alt="" />
     <div class="container-fluid main-container">
       <div class="navbar-container">
-        <p class="navbar-text current-page"><strong>00</strong> HOME</p>
-        <p class="navbar-text non-current"><strong>01</strong> DESTINATION</p>
-        <p class="navbar-text non-current"><strong>02</strong> CREW</p>
-        <p class="navbar-text non-current"><strong>03</strong> TECHNOLOGY</p>
+        <a class="navbar-text current-page"><strong>00</strong> HOME</a>
+        <a class="navbar-text non-current"><strong>01</strong> DESTINATION</a>
+        <a class="navbar-text non-current"><strong>02</strong> CREW</a>
+        <a class="navbar-text non-current"><strong>03</strong> TECHNOLOGY</a>
+      </div>
+      <div class="sidenav">
+        <img
+          class="close-sidenav"
+          src="assets/home/close.png"
+          alt=""
+          onclick="closeNav()" />
+        <a class="navbar-text mobile-navbar-text current-page"
+          ><strong>00</strong> HOME</a
+        >
+        <a class="navbar-text mobile-navbar-text non-current"
+          ><strong>01</strong> DESTINATION</a
+        >
+        <a class="navbar-text mobile-navbar-text non-current"
+          ><strong>02</strong> CREW</a
+        >
+        <a class="navbar-text mobile-navbar-text non-current"
+          ><strong>03</strong> TECHNOLOGY</a
+        >
       </div>
       <section id="main">
-        <section id="body">
-          <div class="body-text-container">
-            <h5>SO, YOU WANT TO TRAVEL TO</h5>
-            <h1 class="body-heading">SPACE</h1>
-            <p class="body-text">
-              Let’s face it; if you want to go to space, you might as well
-              <br />
-              genuinely go to outer space and not hover kind of on the edge of
-              <br />
-              it. Well sit back, and relax because we’ll give you a truly out of
-              <br />
-              this world experience!
-            </p>
-          </div>
-        </section>
+        <div class="body-text-container body-text-container-space">
+          <h5>SO, YOU WANT TO TRAVEL TO</h5>
+          <h1 class="body-heading">SPACE</h1>
+          <p class="body-text">
+            Let’s face it; if you want to go to space, you might as well
+            <br />
+            genuinely go to outer space and not hover kind of on the edge of
+            <br />
+            it. Well sit back, and relax because we’ll give you a truly out of
+            <br />
+            this world experience!
+          </p>
+        </div>
+        <img class="btn-explore2" src="assets/home/explore.png" alt="" />
       </section>
     </div>
     <!-- Bootstrap JS -->
@@ -65,5 +94,9 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"></script>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <!-- Javascript -->
+    <script src="index.js"></script>
   </body>
 </html>
